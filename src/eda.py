@@ -5,7 +5,8 @@ Exploratory data analysis and stationarity testing for hourly Appliances
 energy demand: initial plots, seasonal decomposition, ADF/KPSS tests,
 ACF/PACF plots, and differencing if required.
 """
-
+import warnings
+warnings.filterwarnings("ignore")
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
