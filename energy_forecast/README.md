@@ -60,21 +60,8 @@ the `# ===== SOURCE: ... =====` banners), with one function per part:
 `run_part7_foundation_model`, `run_part8_compare_models`, called in order
 from a single `main()` at the bottom.
 
-### Why three notebooks?
 
-- **`analysis.ipynb`** / **`analysis_standalone.ipynb`** run in *this*
-  sandbox, which has no internet access, so their Part 7 (Chronos) section
-  correctly reports "not found" — that's expected, not a bug.
-- **`analysis_colab_executed.ipynb`** is the actual notebook run in Google
-  Colab (with internet access), and has the real Chronos results saved
-  inside it, along with the Part 6b realistic-weather follow-up. This is
-  the evidence copy for Part 7/Q4 of the assignment. One cell that Chronos
-  depends on (the Part 5 feature-engineering function definitions) was
-  missing from the version originally exported from Colab — it only worked
-  live because it was still in the Colab kernel's memory from an earlier
-  run — so it has been reconstructed and re-inserted here to make the
-  notebook properly reproducible from a fresh restart; every other cell's
-  saved output is untouched and is the real, original result.
+
 
 ## How to reproduce
 
