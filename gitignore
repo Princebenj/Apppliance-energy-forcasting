@@ -1,0 +1,26 @@
+# Raw data (large, can be re-downloaded from UCI or regenerated via src/all_in_one.py)
+data/raw/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs from long-running background jobs (e.g. SARIMAX grid search)
+sarimax_run*.log
+*.log
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
