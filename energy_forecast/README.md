@@ -1,4 +1,4 @@
-# Appliance Energy Demand Forecasting — Time Series Case Study
+# # Appliance Energy Demand Forecasting — Time Series Case Study
 
 Hourly forecasting of household appliance electricity demand using benchmark
 models, SARIMAX, a feature-based gradient-boosting model (XGBoost), and a
@@ -216,5 +216,3 @@ Q5 realistic-weather follow-up are in `reports/report.docx`.
   are generated recursively, feeding earlier predictions into later lag
   features rather than peeking at true future values. See `src/all_in_one.py`
   (`build_lag_and_rolling_features`, `recursive_forecast`) for the exact logic.
-- **rv1/rv2** (random noise columns documented by the original dataset
-  authors) are dropped in `data_prep.py`.
