@@ -2,17 +2,15 @@
 all_in_one.py
 =============
 The ENTIRE project pipeline (Parts 1, 2, 3, 4, 5, 6, 7, 8) in a single file,
-merged from the original modular scripts (data_prep.py, evaluation.py,
-eda.py, features.py, benchmarks.py, sarimax.py, ml_model.py,
-foundation_model.py, compare_models.py) for anyone who wants one file to
-run instead of several.
+(data_prep.py, evaluation.py, eda.py, features.py, benchmarks.py, sarimax.py, ml_model.py,
+foundation_model.py, compare_models.py) 
 
 HOW TO RUN
 ----------
     python all_in_one.py
 
 This runs Parts 1, 3, 4, 5, 6, 8 in order (skipping Part 7/Chronos by
-default, since it needs internet access to Hugging Face - see below).
+default, you can see that part in the ipynb file the Hugging Face was executed.).
 Figures and metrics are written to ../outputs/, exactly as with the
 original modular scripts. Part 4 (SARIMAX) is the slow step (~30-40 min
 on 1 CPU core, since the assignment requires an exhaustive AIC grid
