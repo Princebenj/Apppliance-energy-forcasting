@@ -7,7 +7,7 @@ backtest over 24-hour horizons.
 
 ## To Access The Notebooks
 
-The Notebook files is inside the folder Energy Forecast, Notebooks, 
+The Main Notebook files is inside the folder Energy Forecast, Notebooks, analysis colab executed.ipynb
 
 ## Dataset
 
