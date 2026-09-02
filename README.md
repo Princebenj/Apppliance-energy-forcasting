@@ -5,6 +5,10 @@ models, SARIMAX, a feature-based gradient-boosting model (XGBoost), and a
 time-series foundation model (Chronos), evaluated with a rolling-origin
 backtest over 24-hour horizons.
 
+## To Access The Notebooks
+
+The Notebook files is inside the folder Energy Forecast, Notebooks, 
+
 ## Dataset
 
 [UCI "Appliances Energy Prediction" dataset](https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction):
